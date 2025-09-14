@@ -5,7 +5,7 @@ ancho = 800
 alto = 600
 windows = pygame.display.set_mode((ancho, alto))
 
-fondo = pygame.image.load("modos.jpg")
+fondo = pygame.image.load("image/home.jpg")
 fondo_rect = fondo.get_rect()
 pos_x = (ancho - fondo_rect.width) // 2
 pos_y = (alto - fondo_rect.height) // 2
